@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App .body {
+    display: flex;
+    flex: 1;
+    background-color: #edecec;
+}
+
+table.posts-table {
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.posts-table tbody {
+    height: inherit;
+}
+
+.posts-table tr {
+    border-bottom: 1px solid rgb(224,224,224);
+    color: rgba(0,0,0,0.870588);
+}
+
+.posts-table header th {
+    padding: 0;
+}
+
+.posts-table header th:first-child {
+    padding: 0 0 0 12px;
+}
+
+.posts-container {
+    background-color: #fff;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table-responsive {
+    padding: 0 10px 0 10px;
+}
+
